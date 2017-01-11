@@ -1,28 +1,23 @@
 {
-  "name": "giphy-example-link-resolver",
+  "name": "pastebin-link-resolver-mixmax",
   "version": "0.0.1",
-  "description": "Giphy link resolver for Mixmax",
+  "description": "Pastebin link resolver for Mixmax",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mixmaxhq/giphy-example-link-resolver.git"
+    "url": "git://github.com/lzmartinico/pastebin-link-resolver-mixmax.git"
   },
-  "author": "Chanpory Rith <chanpory@mixmax.com> (https://mixmax.com/)",
+  "author": "Lorenzo Martinico <lzmartinico@gmail.com",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mixmaxhq/giphy-example-link-resolver/issues"
-  },
-  "homepage": "https://github.com/mixmaxhq/giphy-example-link-resolver",
+  "homepage": "https://github.com/lzmartinico/pastebin-link-resolver-mixmax",
   "dependencies": {
-    "body-parser": "^1.12.2",
     "cors": "^2.7.1",
     "express": "^4.12.3",
     "request": "^2.64.0",
-    "synchronize": "^0.9.14",
-    "underscore": "^1.8.3"
+    "synchronize": "^0.9.14"
   },
   "devDependencies": {
     "nodemon": "^1.7.1"
